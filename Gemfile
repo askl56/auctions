@@ -25,6 +25,7 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'timecop'
   gem 'pry-byebug'
+  gem 'better_errors'
 
   gem 'byebug'
   gem 'web-console', '~> 2.0'
