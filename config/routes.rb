@@ -5,5 +5,6 @@ Rails.application.routes.draw do
       resources :bids, only: [ :create ]
     end
   end
+ 
   root 'products#index'
 end
