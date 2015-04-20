@@ -1,4 +1,5 @@
-=form_for [ @product, @product.auction, Bid.new ] do |f|
+
+=form_for product_auction_bids_path( @product, @product.auction, Bid.new ) do |f|
   %p
     %strong
       Current bid:
